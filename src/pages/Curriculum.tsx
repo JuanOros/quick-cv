@@ -1,6 +1,10 @@
+import CvForm from "../components/CvForm";
+
 function Curriculum() {
   return (
-    <div>Curriculum</div>
+    <div>
+      <CvForm />
+    </div>
   );
 }
 

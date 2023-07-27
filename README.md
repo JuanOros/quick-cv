@@ -6,3 +6,4 @@ this must be a description about the app
 
 - react-router-dom
 - @trybe/eslint-config-frontend
+- tailwind
