@@ -2,9 +2,9 @@ import Title from "./Title";
 
 function MainData() {
   return (
-    <div className="px-3">
+    <>
       <Title title='Personal Data' />
-      <div className="grid grid-cols-1 gap-4 py-5 sm:grid-cols-2 items-end">
+      <div className="labels-container">
         <label>
           Desired Job Title:
           <input
@@ -60,7 +60,7 @@ function MainData() {
           />
         </label>
       </div>
-    </div>
+    </>
   );
 }
 
