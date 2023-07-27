@@ -1,8 +1,9 @@
 import './App.css'
+import AppRoutes from './components/AppRoutes'
 
 function App() {
   return (
-    <p>Quick CV</p>
+    <AppRoutes />
   )
 }
 
