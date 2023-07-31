@@ -15,7 +15,7 @@ function MainData() {
         <input
           type="file"
           name="profile-image"
-          className="bg-white text-sm p-0 file"
+          className="bg-white text-sm p-0 file border-none w-auto"
         />
         <label>
           First Name:
