@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  label {
+    @apply  flex flex-col font-normal text-xs text-gray-500;
+  }
+
+  input {
+    @apply  bg-slate-100 rounded-sm focus:outline-none h-7 focus:border-b-2 focus:border-blue-700 p-3 text-black;
+  }
+
+  textarea {
+    @apply  bg-slate-100 rounded-sm focus:outline-none resize-none focus:border-b-2 focus:border-blue-700 p-3 text-black;
+  }
+
+  button {
+    @apply  bg-gradient-to-t from-blue-500 to-blue-600 hover:from-blue-500 hover:to-blue-700 text-white font-bold my-4 py-1 px-4 rounded w-full;
+  }
+
+  .labels-container {
+    @apply  grid grid-cols-1 gap-4 py-5 md:grid-cols-2 items-end;
+  }
+}
